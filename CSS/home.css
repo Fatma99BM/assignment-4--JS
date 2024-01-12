@@ -1,0 +1,29 @@
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1120px;
+    }
+  }
+
+body{
+    background-color: #24353F;
+}
+.myNav{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) ;
+    color: #fff !important;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: gray;
+    border: 1px solid yellow;
+}
+.collapse .navbar-nav .nav-item :hover{
+    color: #fff;
+}
+#hiMassage{
+    
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) ;
+}
+#hiMassage h1{
+    color: #17a2b8;
+}

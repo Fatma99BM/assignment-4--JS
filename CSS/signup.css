@@ -1,0 +1,43 @@
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1120px;
+    }
+  }
+
+body{
+    background-color: #24353F;
+}
+.Title{
+    color: #189DB3;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Righteous', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Tilt Neon', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+.login-form{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) ;
+}
+.login-form button{
+    color: #189DB3 !important;
+}
+.login-form button:hover{
+    background-color: #189DB3 !important;
+    color: white !important;
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn-opacity{
+    display: block;
+}
