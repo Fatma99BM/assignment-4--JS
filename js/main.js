@@ -21,7 +21,7 @@ function login(){
         if(userArray[i].userEmail.toLowerCase() == loginEmail.value.toLowerCase() 
         && userArray[i].userPassword.toLowerCase() == loginPassword.value.toLowerCase() ){
                localStorage.setItem("User Name" , userArray[i].userName);
-               window.location.href = ('home.html')
+               window.location.href = ('home.html');
             //    loginBtn.setAttribute('href' , 'C:\Route\seasion 1\assignment JS 4\home.html')
         }
         else{
